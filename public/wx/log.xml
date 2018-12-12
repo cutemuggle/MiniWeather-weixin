@@ -1,0 +1,173 @@
+20:01:01 R <xml><ToUserName><![CDATA[gh_b87ece281b5a]]></ToUserName>
+<FromUserName><![CDATA[oZLMS1eGNcShySb5rFIExh7HIFxI]]></FromUserName>
+<CreateTime>1543665661</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[CurrentWeather]]></EventKey>
+</xml>
+20:01:01 T <xml>
+
+        <ToUserName><![CDATA[oZLMS1eGNcShySb5rFIExh7HIFxI]]></ToUserName>
+
+        <FromUserName><![CDATA[gh_b87ece281b5a]]></FromUserName>
+
+        <CreateTime>1543665661</CreateTime>
+
+        <MsgType><![CDATA[text]]></MsgType>
+
+        <Content><![CDATA[]]></Content>
+
+        </xml>
+20:04:35 R <xml><ToUserName><![CDATA[gh_b87ece281b5a]]></ToUserName>
+<FromUserName><![CDATA[oZLMS1eGNcShySb5rFIExh7HIFxI]]></FromUserName>
+<CreateTime>1543665875</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>39.757271</Latitude>
+<Longitude>116.349136</Longitude>
+<Precision>350.000000</Precision>
+</xml>
+20:04:35 T <xml>
+
+        <ToUserName><![CDATA[oZLMS1eGNcShySb5rFIExh7HIFxI]]></ToUserName>
+
+        <FromUserName><![CDATA[gh_b87ece281b5a]]></FromUserName>
+
+        <CreateTime>1543665875</CreateTime>
+
+        <MsgType><![CDATA[text]]></MsgType>
+
+        <Content><![CDATA[]]></Content>
+
+        </xml>
+20:04:38 R <xml><ToUserName><![CDATA[gh_b87ece281b5a]]></ToUserName>
+<FromUserName><![CDATA[oZLMS1eGNcShySb5rFIExh7HIFxI]]></FromUserName>
+<CreateTime>1543665878</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[天气]]></Content>
+<MsgId>6629994462480011574</MsgId>
+</xml>
+20:04:38 T <xml>
+
+        <ToUserName><![CDATA[oZLMS1eGNcShySb5rFIExh7HIFxI]]></ToUserName>
+
+        <FromUserName><![CDATA[gh_b87ece281b5a]]></FromUserName>
+
+        <CreateTime>1543665878</CreateTime>
+
+        <MsgType><![CDATA[text]]></MsgType>
+
+        <Content><![CDATA[北京市的天气情况：
+今天天气:多云
+最高温度:高温 7.0℃
+最低温度:低温 1.0℃
+风向:东南风
+风力:<3级
+空气质量指数:231
+]]></Content>
+
+        </xml>
+20:06:00 R <xml><ToUserName><![CDATA[gh_b87ece281b5a]]></ToUserName>
+<FromUserName><![CDATA[oZLMS1eGNcShySb5rFIExh7HIFxI]]></FromUserName>
+<CreateTime>1543665960</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>39.757271</Latitude>
+<Longitude>116.349136</Longitude>
+<Precision>350.000000</Precision>
+</xml>
+20:06:00 T <xml>
+
+        <ToUserName><![CDATA[oZLMS1eGNcShySb5rFIExh7HIFxI]]></ToUserName>
+
+        <FromUserName><![CDATA[gh_b87ece281b5a]]></FromUserName>
+
+        <CreateTime>1543665960</CreateTime>
+
+        <MsgType><![CDATA[text]]></MsgType>
+
+        <Content><![CDATA[]]></Content>
+
+        </xml>
+20:06:35 R <xml><ToUserName><![CDATA[gh_b87ece281b5a]]></ToUserName>
+<FromUserName><![CDATA[oZLMS1eGNcShySb5rFIExh7HIFxI]]></FromUserName>
+<CreateTime>1543665995</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>39.757271</Latitude>
+<Longitude>116.349136</Longitude>
+<Precision>350.000000</Precision>
+</xml>
+20:06:35 T <xml>
+
+        <ToUserName><![CDATA[oZLMS1eGNcShySb5rFIExh7HIFxI]]></ToUserName>
+
+        <FromUserName><![CDATA[gh_b87ece281b5a]]></FromUserName>
+
+        <CreateTime>1543665995</CreateTime>
+
+        <MsgType><![CDATA[text]]></MsgType>
+
+        <Content><![CDATA[]]></Content>
+
+        </xml>
+10:50:42 R <xml><ToUserName><![CDATA[gh_ded09408a2d5]]></ToUserName>
+<FromUserName><![CDATA[oaKN_vyEoNlR8cFtWE-b2V2TZDLM]]></FromUserName>
+<CreateTime>1543719042</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+10:50:42 T <xml>
+
+        <ToUserName><![CDATA[oaKN_vyEoNlR8cFtWE-b2V2TZDLM]]></ToUserName>
+
+        <FromUserName><![CDATA[gh_ded09408a2d5]]></FromUserName>
+
+        <CreateTime>1543719042</CreateTime>
+
+        <MsgType><![CDATA[text]]></MsgType>
+
+        <Content><![CDATA[欢迎关注我们的公众号]]></Content>
+
+        </xml>
+10:51:49 R <xml><ToUserName><![CDATA[gh_ded09408a2d5]]></ToUserName>
+<FromUserName><![CDATA[oaKN_vyEoNlR8cFtWE-b2V2TZDLM]]></FromUserName>
+<CreateTime>1543719109</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[！]]></Content>
+<MsgId>6630223087791599833</MsgId>
+</xml>
+10:51:49 T <xml>
+
+        <ToUserName><![CDATA[oaKN_vyEoNlR8cFtWE-b2V2TZDLM]]></ToUserName>
+
+        <FromUserName><![CDATA[gh_ded09408a2d5]]></FromUserName>
+
+        <CreateTime>1543719109</CreateTime>
+
+        <MsgType><![CDATA[text]]></MsgType>
+
+        <Content><![CDATA[未能识别,请输入正确指令]]></Content>
+
+        </xml>
+10:52:56 R <xml><ToUserName><![CDATA[gh_ded09408a2d5]]></ToUserName>
+<FromUserName><![CDATA[oaKN_vyEoNlR8cFtWE-b2V2TZDLM]]></FromUserName>
+<CreateTime>1543719175</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【收到不支持的消息类型，暂无法显示】]]></Content>
+<MsgId>6630223371259441371</MsgId>
+</xml>
+10:52:56 T <xml>
+
+        <ToUserName><![CDATA[oaKN_vyEoNlR8cFtWE-b2V2TZDLM]]></ToUserName>
+
+        <FromUserName><![CDATA[gh_ded09408a2d5]]></FromUserName>
+
+        <CreateTime>1543719176</CreateTime>
+
+        <MsgType><![CDATA[text]]></MsgType>
+
+        <Content><![CDATA[未能识别,请输入正确指令]]></Content>
+
+        </xml>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <title>天气展示页面</title>
+</head>
+<body>
+<div data-role="page" data-theme="b">
+    <div data-role="panel" id="myPanel">
+        <form class="ui-filterable">
+            <input id="myFilter" placeholder="输入城市名称" data-type="search" title="search">
+        </form>
+        <ul data-role="listview" data-autodividers="true" data-inset="true" data-filter="true" data-input="#myFilter">
+            {foreach name='city' item='item'}
+            <li><a href="#" onclick="setCity(this)">{$item['city']}</a></li>
+            {/foreach}
+        </ul>
+    </div>
+
+    <div data-role="header">
+        <a href="#myPanel" class="ui-btn ui-btn-inline">选择城市</a>
+        <h1 id="tlosp_title">当前城市{$curCity}</h1>
+        <a href="#" class="ui-btn ui-icon-refresh ui-btn-icon-left">更新天气</a>
+    </div>
+
+    <div data-role="main" class="ui-content">
+        <p>weather report</p>
+    </div>
+
+    <div data-role="footer">
+        <h1>底部文本</h1>
+    </div>
+
+</div>
+
+<script type="text/javascript">
+    let currentCity = "{$curCity}";
+    let title = document.getElementById('tlosp_title');
+
+    function setCity(view) {
+        currentCity = view.innerText.split(' ')[1];
+        title.innerText = '当前城市' + currentCity;
+    }
+</script>
+</body>
+</html>
