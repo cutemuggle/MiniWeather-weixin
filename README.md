@@ -6,6 +6,11 @@ ThinkPHP 5.0
 [![Latest Unstable Version](https://poser.pugx.org/topthink/think/v/unstable)](https://packagist.org/packages/topthink/think)
 [![License](https://poser.pugx.org/topthink/think/license)](https://packagist.org/packages/topthink/think)
 
+微信测试号的天气查询功能写在public/wx中，可以输入城市+天气获取
+
+微信测试号的token功能，即底部菜单栏，写在application/token中，可以定位到当前城市的天气。
+
+
 ThinkPHP5在保持快速开发和大道至简的核心理念不变的同时，PHP版本要求提升到5.4，对已有的CBD模式做了更深的强化，优化核心，减少依赖，基于全新的架构思想和命名空间实现，是ThinkPHP突破原有框架思路的颠覆之作，其主要特性包括：
 
  + 基于命名空间和众多PHP新特性
